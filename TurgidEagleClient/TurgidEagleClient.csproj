@@ -12,5 +12,5 @@
   <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
     <Exec Command="xcopy /y /d &quot;$(SolutionDir)\Debug\TurgidEagle.dll&quot; &quot;$(TargetDir)&quot;&#xD;&#xA;" />
   </Target>
-
+ 
 </Project>
